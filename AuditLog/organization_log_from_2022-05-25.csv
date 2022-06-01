@@ -1,4 +1,6 @@
 enterprise,organization,action,actor,user,actorLocation,actorIp,actorLogin,createdAt,operationType,userLogin
+CRESCO Ltd.,CrGitHubOperation,org.add_member,KoheiAoshima,,,,KoheiAoshima,2022-06-01T02:32:17.145Z,CREATE,GitTool-PhuongTD
+CRESCO Ltd.,CrGitHubOperation,org.invite_member,KoheiAoshima,,Japan,61.125.128.194,KoheiAoshima,2022-06-01T02:30:53.102Z,CREATE,
 CRESCO Ltd.,CrGitHubOperation,org.add_member,KoheiAoshima,,,,KoheiAoshima,2022-05-31T11:37:54.104Z,CREATE,YuusukeAoyama
 CRESCO Ltd.,CrGitHubOperation,org.invite_member,KoheiAoshima,,Japan,90.149.99.173,KoheiAoshima,2022-05-31T11:37:16.311Z,CREATE,
 CRESCO Ltd.,CrGitHubOperation,org.invite_member,KoheiAoshima,,Japan,61.125.128.194,KoheiAoshima,2022-05-31T10:49:14.570Z,CREATE,
