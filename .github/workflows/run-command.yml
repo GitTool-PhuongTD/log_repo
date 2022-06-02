@@ -14,7 +14,10 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
         
-
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.7'
 
       - name: execute py script
         run: python hello.py
