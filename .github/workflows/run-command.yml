@@ -12,5 +12,14 @@ jobs:
 
     steps:
       # Runs a single command using the runners shell
-      - name: Run a multi-line script
-        run: python csv/hello.py
+      - name: checkout repo content
+        uses: actions/checkout@v2
+        
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.7'
+
+      - name: execute py script
+        run: python hello.py
+      
