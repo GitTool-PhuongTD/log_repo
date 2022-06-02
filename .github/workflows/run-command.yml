@@ -20,5 +20,5 @@ jobs:
           python-version: '3.7.7'
 
       - name: execute py script
-        run: python hello.py
+        run: python csv/hello.py
       
