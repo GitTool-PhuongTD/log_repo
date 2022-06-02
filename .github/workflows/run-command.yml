@@ -13,5 +13,5 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a multi-line script
-        working-directory: ../csv
+        working-directory: csv
         run: python hello.py
