@@ -4,7 +4,7 @@ name: run-command
 
 defaults:
   run:
-    working-directory: csv
+    working-directory: ./csv
 
 on:
   push:
