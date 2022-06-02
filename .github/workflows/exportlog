@@ -17,10 +17,4 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-      - run: cd D:\0055_Github_Tool\70_member\LamTV\SourceCode
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: python US005_export_log.py
+      - run: echo 'Hello WORLD!!!'
