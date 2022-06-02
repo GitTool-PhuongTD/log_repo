@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: run-command
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: cd to csv
+        run: cd csv
+
+      - name: Run a multi-line script
+        run: python hello.py
