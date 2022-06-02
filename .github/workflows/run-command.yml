@@ -2,10 +2,6 @@
 
 name: run-command
 
-defaults:
-  run:
-    working-directory: tree/main/csv
-
 on:
   push:
     branches: [ main ]
@@ -17,4 +13,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a multi-line script
-        run: python hello.py
+        run: echo pwd
