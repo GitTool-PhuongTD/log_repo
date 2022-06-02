@@ -2,10 +2,10 @@ name: hello-world
 
 on:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: '*/1 * * * *'
 
 jobs:
-  hello-world:
+  cron:
     runs-on: ubuntu-latest
 
     steps:
